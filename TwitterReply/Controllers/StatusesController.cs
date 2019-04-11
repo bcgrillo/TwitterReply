@@ -31,19 +31,19 @@ namespace TwitterReply.Controllers
             switch (score)
             {
                 case double n when (n <= 0.2):
-                    res = "Lamentamos mucho tu mensaje, en breve nos pondremos en contacto contigo... \u1F622";
+                    res = "Lamentamos mucho tu mensaje, en breve nos pondremos en contacto contigo... \U0001F622";
                     break;
                 case double n when (n > 0.2 && n <= 0.4):
-                    res = "Sentimo mucho leer esto. No siempre acertamos en todo como nos gustaría. \u1F61F";
+                    res = "Sentimo mucho leer esto. No siempre acertamos en todo como nos gustaría. \U0001F61F";
                     break;
                 case double n when (n > 0.4 && n <= 0.6):
-                    res = "Vaya, tomamos nota de tu mensaje. \u1F610";
+                    res = "Vaya, tomamos nota de tu mensaje. \U0001F610";
                     break;
                 case double n when (n > 0.6 && n <= 0.8):
-                    res = "¡Gracias por tu mensaje! Seguiremos mejorando. \u1F60A";
+                    res = "¡Gracias por tu mensaje! Seguiremos mejorando. \U0001F60A";
                     break;
                 case double n when (n > 0.8 && n <= 1):
-                    res = "¡Wow! ¡Muchísimas gracias, nos alegra mucho leer esto! \u1F604";
+                    res = "¡Wow! ¡Muchísimas gracias, nos alegra mucho leer esto! \U0001F604";
                     break;
 
             }
