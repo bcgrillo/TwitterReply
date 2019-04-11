@@ -52,7 +52,7 @@ namespace TwitterReply.Controllers
             var statusId = tweetOject.Value<ulong>("statusId");
 
             var twitterCtx = new TwitterContext(auth);
-            var tweet = await twitterCtx.ReplyAsync(statusId, $"Los sentimientos de tu tweet @{username} son {res}");
+            var tweet = await twitterCtx.ReplyAsync(statusId, $"@{username}\n{res}");
 
             return tweet.ToString();
         }
