@@ -34,7 +34,7 @@ namespace TwitterReply.Controllers
                     res = "Lamentamos mucho tu mensaje, en breve nos pondremos en contacto contigo... \U0001F622";
                     break;
                 case double n when (n > 0.2 && n <= 0.4):
-                    res = "Sentimo mucho leer esto. No siempre acertamos en todo como nos gustaría. \U0001F61F";
+                    res = "Sentimos mucho leer esto. No siempre acertamos en todo como nos gustaría. \U0001F61F";
                     break;
                 case double n when (n > 0.4 && n <= 0.6):
                     res = "Vaya, tomamos nota de tu mensaje. \U0001F610";
